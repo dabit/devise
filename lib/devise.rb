@@ -318,7 +318,7 @@ module Devise
   end
 
   def self.ref(arg)
-    ActiveSupport::Dependencies.reference(arg)
+    # ActiveSupport::Dependencies.reference(arg)
     Getter.new(arg)
   end
 
